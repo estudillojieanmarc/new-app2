@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;800&display=swap');
+
+ion-content{
+    --background: #16697A;
+}
+ion-toolbar{
+    --background: #DB6400;
+    --color:#F8F1F1;
+    a{
+        text-decoration: none;
+        color: #F8F1F1;
+    }
+}
+ion-icon{
+    margin-left: 11rem;
+    font-size: 25px;
+}
+ion-card{
+    ion-card-title{
+    --color:#F8F1F1;
+    font-size: 23px;
+    text-align: center;
+    }
+    ion-card-subtitle{
+    --color:#DB6400;
+    text-align: center;
+    }
+    img{
+        clip-path: circle();
+        margin: 0 2.5rem;
+    }
+}
